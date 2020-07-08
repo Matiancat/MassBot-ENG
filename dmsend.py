@@ -12,7 +12,7 @@ client = discord.Client()
 @client.event
 async def on_ready():
     print("Your Bot is working.")
-    game = discord.Game('★★★Enter Game Name!!!!!!!★★★')
+    game = discord.Game('Zenix Community™')
     await client.change_presence(status=discord.Status.online, activity=game)
 
 #Send dm to "/dm {message}"
@@ -25,13 +25,13 @@ async def on_message(message):
             else:
                 try:
                     msg = message.content[4:]
-                    if message.author.id == ★★★Enter Your Discord ID★★★:
-                        embed = discord.Embed(colour=0x1DDB16, timestamp=message.created_at, title="★★Top Title★★")
-                        embed.add_field(name="★★Title★★", value=msg, inline=True)
-                        embed.set_footer(text=f"discord.gg/★★Invite Code★★")
+                    if message.author.id ==730508784270704651:
+                        embed = discord.Embed(colour=0x1DDB16, timestamp=message.created_at, title="Zenix Community™")
+                        embed.add_field(name="Zenix Community™", value=msg, inline=True)
+                        embed.set_footer(text=f"discord.gg/12345")
                         await i.send(embed=embed)
                 except:
                     pass
 
 
-client.run('★★Bot Token★★')
+client.run('NzMwNTA4Nzg0MjcwNzA0NjUx.XwYhdA.mSuhAqB_AkYfNOsyNGWijzcg1X4')
